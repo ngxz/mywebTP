@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>网站管理页面</title>
+		<link rel="stylesheet" href="__PUBLIC__/bootstrap/dist/css/bootstrap.min.css"/>
+		<link rel="stylesheet" href="__PUBLIC__/css/common.css" />
+		<link rel="stylesheet" href="__PUBLIC__/css/index.css" />
+		<script type="text/javascript" src="__PUBLIC__/js/jquery-1.9.1.min.js"></script>
+		<script type="text/javascript" src="__PUBLIC__/bootstrap/dist/js/bootstrap.min.js" ></script>
+	</head>
+	<body>
+		<!--导航开始-->
+		<nav class="navbar navbar-default">
+	      	<div class="container">
+		        <div class="navbar-header">
+		          <a class="navbar-brand" href="__ROOT__/index.php/Home/IndexPage/indexLoad">Yuanrb.com</a>
+		        </div>
+		        <div id="navbar">
+		          <ul class="nav navbar-nav">
+		            <li><a href="__ROOT__/index.php/Home/IndexPage/indexLoad">首页</a></li>
+		            <li><a href="__ROOT__/index.php/Home/MessagePage/message">资讯中心</a></li>
+		            <li><a href="__ROOT__/index.php/Home/WebPage/webLoad">WEB前端</a></li>
+		            <li><a href="__ROOT__/index.php/Home/PhpPage/phpLoad">PHP学习</a></li>
+		            <li><a href="__ROOT__/index.php/Home/BoardPage/boardLoad">留言板</a></li>
+		          </ul>
+		        </div>
+	      	</div>
+    	</nav>
+		<!--本页独立内容-->
+		<div class="container">
+			<div class="row">
+				<!-- 左边菜单 -->
+				<div class="col-md-2">
+					<div class="btn-group">
+					  <button type="button" class="btn btn-danger">新闻</button>
+					  <button type="button" class="btn btn-danger dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+					    <span class="caret"></span>
+					    <span class="sr-only">发布</span>
+					  </button>
+					  <ul class="dropdown-menu">
+					    <li><a href="#">发布新闻</a></li>
+					    <li><a href="#">修改新闻</a></li>
+					    <li><a href="#">删除新闻</a></li>
+					    <li role="separator" class="divider"></li>
+					    <li><a href="#">暂定</a></li>
+					  </ul>
+					</div>
+				</div>
+				<!-- 右边内容 -->
+				<div class="col-md-10">
+					
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

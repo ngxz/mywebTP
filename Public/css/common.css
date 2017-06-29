@@ -1,0 +1,10 @@
+*{margin: 0;padding: 0;font-family: "微软雅黑";font-size: 14px;}
+ul li{list-style: none;}
+a{text-decoration: none;color: black;}
+body{}
+a:hover{text-decoration: none;opacity: 0.8;color:black;}
+/*导航开始*/
+
+/*footer*/
+.footer{background-color:#f0f0f0;height:50px;width:100%;padding-top:10px;}
+.footer span{display:block;font-size: 12px;text-align:center;color:#777777}
